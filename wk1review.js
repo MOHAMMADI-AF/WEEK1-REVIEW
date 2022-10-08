@@ -11,9 +11,9 @@ var Book1 = 100
 var book2 = 120
 if ('Book1 <= Book2') {
   console.log("Book1 is Bigger than Book2");
-  } else {
-    console.log("Book2 is Smaller than Book1");
-  }
+} else {
+  console.log("Book2 is Smaller than Book1");
+}
 
 //=========================================================================================================  
 
@@ -51,9 +51,9 @@ if (Grade >= 90) {
 //ANSWER TO Q 3 
 //===============
 
-var hour = ('11:40 AM') 
+var hour = ('11:40 AM')
 if (hour >= '05:00 AM' || hour <= '11:59 AM') {
-    console.log('Good Morning');
+  console.log('Good Morning');
 } else if (hour >= '12:00 PM' || hour <= '04:00 PM') {
   console.log('Good Afternoon');
 } else {
@@ -66,7 +66,7 @@ if (hour >= '05:00 AM' || hour <= '11:59 AM') {
 // Look up the following string methods!
 
 // Using charAt(), print the letter i in Sabrina
-const One = 'Sabrina' 
+const One = 'Sabrina'
 console.log(`print the letter i in Sabrina '${One.charAt(4)}'`);
 
 //=========================================================================================================  
@@ -171,31 +171,31 @@ const whateverQueenBeySaid = {
   thing2: 'clothes',
   thing3: 'gaming console'
 };
-for(const prop in whateverQueenBeySaid) {
+for (const prop in whateverQueenBeySaid) {
   console.log(prop + ':' + whateverQueenBeySaid[prop]);
 }
 
 //=========================================================================================================  
 
-  // Using (FOR IN LOOP), print the indexes of the array.
-  const lana = ['l', 'a', 'n', 'a']
-  console.log('l','a','n','a');
-
-  //=========================================================================================================  
-
-  
-  // USE (FOR OF LOOP)!
-  const tia = ['teo', 'the', 'syntax', 'of', 'this', 'is', 'cleaner']
-  console.log('this', 'is', 'cleaner');
+// Using (FOR IN LOOP), print the indexes of the array.
+const lana = ['l', 'a', 'n', 'a']
+console.log('l', 'a', 'n', 'a');
 
 //=========================================================================================================  
 
 
-  // Look into forEach() loop, it accepts a callback aka a function inside a function. 
-  // Swathi said don't forget each person. No person left behind! Use forEach() to iterate over the array perscholas. Inside the function, create a variable with the string "PS". Print their name in the console concatenated with the variable. //??
-  const perscholas = ['Amira', 'Arely', 'Jonathan']
+// USE (FOR OF LOOP)!
+const tia = ['teo', 'the', 'syntax', 'of', 'this', 'is', 'cleaner']
+console.log('this', 'is', 'cleaner');
 
-  //=========================================================================================================  
+//=========================================================================================================  
+
+
+// Look into forEach() loop, it accepts a callback aka a function inside a function. 
+// Swathi said don't forget each person. No person left behind! Use forEach() to iterate over the array perscholas. Inside the function, create a variable with the string "PS". Print their name in the console concatenated with the variable. //??
+const perscholas = ['Amira', 'Arely', 'Jonathan']
+
+//=========================================================================================================  
 
 
 ////////////////////////////////////////////////////////////////
@@ -238,7 +238,7 @@ console.log(shoppingList)
 //3.  Use the force, or in this case the reverse method to help Yoda make some sense with his motivational talk to the young Jedi interns.*/
 
 var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
-rev=yoda.reverse();
+rev = yoda.reverse();
 console.log(rev);
 
 //=========================================================================================================  
@@ -246,7 +246,7 @@ console.log(rev);
 
 //4. People been lining up for hours to get the newest iphone release. Help manage the unruly crowd of privileged customers by serving them one at a time and assiging it to a variable named `nowServing`. Console.log this new variable as well as the waitList.*/
 
-var waitList = [ "Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro" ];
+var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
 
 //=========================================================================================================  
 
@@ -287,7 +287,7 @@ function maxOfThree(num1, num2, num3) {
 }
 maxOfThree(5, 8, 12)
 
-//=========================================================================================================  
+//=========================================================================================================
 
 
 //3. Write a function isCharacterAVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise
